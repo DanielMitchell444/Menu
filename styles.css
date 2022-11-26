@@ -1,0 +1,61 @@
+body{
+    background-color: #DACBB4;
+}
+
+nav{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+h1{
+font-size: 48px;
+
+}
+
+.buttons button{
+ width: 200px;
+ background-color: #3E2818;
+ color: white;
+ height: 40px;
+ margin: 20px;
+ border-radius: 5px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 300px;
+}
+
+
+.card img{
+ width: 300px;
+}
+
+.add-cart{
+ width: 300px;
+ height: 40px;
+}
+
+
+.show{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+}
